@@ -2,7 +2,7 @@
 
 ```js
 let promise = new Promise((resolve, reject) => {
-  setTimeout(()=> resolved(`Promise Resolved!`);, 1000)
+  setTimeout(()=> resolved(`Promise Resolved!`), 1000)
 });
 
 ```
@@ -43,8 +43,8 @@ console.log('D');
 <!--  
 A
 D
- C
- B
+C
+B
  -->
 5. Write a function named `wait` that accepts `time` in ms returns a promise. The promise gets resolved after given time.
 
