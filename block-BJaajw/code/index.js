@@ -5,6 +5,10 @@ const select = document.querySelector("select");
 const divVisible = document.querySelector("div");
 let allNews = [];
 
+
+
+
+
 function displayData(datas = []) {
     ul.innerHTML = "";
     datas.forEach((data) => {
