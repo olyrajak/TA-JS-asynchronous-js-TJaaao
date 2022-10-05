@@ -69,6 +69,9 @@ Promise.all([one, two, three])
 - What will be the output of the following code snippet? How much time will it take for the promise to resolve?
 
 ```js
+
+
+
 Promise.all([
   new Promise((resolve, reject) => {
     setTimeout(() => resolve('Arya'), 1000);
@@ -80,4 +83,12 @@ Promise.all([
 
 //Output: ['Arya', 'Sam', {…}]
 //1sec time is required for the to promise to resolve
+
+
+
+
+
+
+
+
 ```
