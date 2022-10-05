@@ -75,6 +75,9 @@ fetch(url)
         divVisible.classList.remove("visible");
     });
 
+
+
+
 select.addEventListener("change", (event) => {
     let source = event.target.value.trim();
     let filterNews;
