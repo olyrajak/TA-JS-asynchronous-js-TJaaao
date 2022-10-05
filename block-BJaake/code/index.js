@@ -32,6 +32,9 @@ function displayData(datas = []) {
 }
 
 
+
+
+
 function displayOptions(source) {
     source.forEach((s) => {
         let option = document.createElement("option");
