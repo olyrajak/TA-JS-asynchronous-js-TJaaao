@@ -35,6 +35,8 @@ function displayUserDetails(data) {
     );
 }
 
+
+
 function displayChild(url, rootElm) {
     rootElm.innerHTML = "";
     fetch(url, function(followingList) {
