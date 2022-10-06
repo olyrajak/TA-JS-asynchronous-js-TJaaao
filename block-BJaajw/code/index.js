@@ -47,6 +47,7 @@ function displayOptions(source) {
         select.append(option);
     });
 }
+
 fetch(url)
     .then((res) => {
         if (!res.ok) {
