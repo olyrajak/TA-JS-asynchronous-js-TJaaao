@@ -20,6 +20,9 @@ githubUser.addEventListener("keyup", (e) => {
     }
 });
 
+
+
+
 function displayUserDetails(data) {
     userImage.src = data.avatar_url;
     userImage.alt = data.name;
