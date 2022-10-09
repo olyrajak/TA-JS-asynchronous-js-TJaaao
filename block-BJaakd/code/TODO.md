@@ -2,7 +2,7 @@
 
 ```js
 let promise = new Promise((resolve, reject) => {
-  setTimeout(()=> resolved(`Promise Resolved!`), 1000)
+  setTimeout(()=> resolve(`Promise Resolved!`), 1000)
 });
 
 ```
